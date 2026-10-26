@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 — Content Copier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="card">
+        <p class="eyebrow">DAY 04</p>
+        <h1>Content Copier</h1>
+
+        <div class="boxes">
+            <div id="source" class="box" draggable="true">
+                <h2>Source</h2>
+                <p>This content belongs to the source div.</p>
+            </div>
+
+            <div id="target" class="box">
+                <h2>Target</h2>
+                <p>Copied content will appear here.</p>
+            </div>
+        </div>
+
+        <button id="copy-button" type="button">Copy Content</button>
+        <p id="status" aria-live="polite"></p>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
